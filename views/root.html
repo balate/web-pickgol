@@ -1,0 +1,49 @@
+<header class="main-header">
+    <div class="container">
+        <a class="main-header-logo" href="/">
+            <h1>PickAndGol</h1>
+        </a>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="row">
+        <div class="twelve columns">
+            <nav class="navigation-bar">
+                <ul>
+                    <li>
+                        <a ng-link="['Events']">Eventos</a>
+                    </li>
+                    <li>
+                        <a ng-link="['Pubs']">Bares</a>
+                    </li>
+                    <li>
+                        <a ng-link="['NewEvent']">Crear Evento</a>
+                    </li>
+                    <li>
+                        <a ng-link="['Login']">Login</a>
+                    </li>
+                    <li>
+                        <a ng-link="['NewUser']">Registrarse</a>
+                    </li>
+                    <li>
+                        <a ng-link="['Foto']">Subir Foto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Dynamic zone -->
+    <ng-outlet></ng-outlet>
+
+
+</div>
+
+<footer class="main-footer">
+    <div class="container">
+        <h1>Pick and Gol. Encuentra eventos en tu bar favorito</h1>
+    </div>
+</footer>
+
